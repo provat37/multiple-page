@@ -101,7 +101,7 @@ main{
     margin: 0 10px;
     cursor: pointer;
 }
-
+/* =======================single items=================== */
 #single-items-parent{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -127,4 +127,36 @@ main{
     display: flex;
     justify-content: space-between;
     color: gray;
+}
+/* ========================previous page========================== */
+#previous-next-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#previous-next-parent h3 a{
+     background-color: #04aa6d;
+     padding: 10px 25px;
+     border-radius: 5px;
+     transition: 0.5s;
+}
+#previous-next-parent h3 a:hover{
+    background-color: #028354;
+}
+#previous-next-parent a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#previous-next-parent div a{
+    margin: 0 10px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1p solid #80808069;
+
+}
+#previous-next-parent div a:first-child{
+    background-color: #028354;
+    color: azure;
 }
