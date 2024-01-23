@@ -43,6 +43,7 @@ nav div{
 #about-sction{
     display: flex;
     width: 900px;
+    height: 400px;
     align-items: center;
     border: 2px solid red;
     margin: auto;
@@ -51,6 +52,7 @@ nav div{
     box-shadow: 10px 10px 5px grey;
     border-radius: 5px;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .about-img-div{
     width: 500px;
