@@ -6,7 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: #1a1244;
-    padding: 5px 200px;
+    padding: 10px 200px;
     border-bottom: 4px solid #401e63;
     position: sticky;
     top: 0;
