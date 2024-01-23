@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
@@ -8,6 +8,8 @@ nav{
     background-color: #1a1244;
     padding: 5px 200px;
     border-bottom: 4px solid #401e63;
+    position: sticky;
+    top: 0;
 }
 nav ul{
     display: flex;
